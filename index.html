@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <!-- LinkedIn link -->
+            <li role="presentation" class="active"><a href="https://ua.linkedin.com/in/teplyymaksim" target="_blank">Authors page <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">W-man</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Hi <i class="fa fa-hand-peace-o" aria-hidden="true"></i>, I am your personal weatherman!</h1>
+        <hr>
+        <!-- Place info -->
+        <h3>
+          You are from <i class="fa fa-globe" aria-hidden="true"></i>
+          <br>
+          <span id="location" class="info-val">Unknown location</span> - <span id="country" class="info-val"></span>
+        </h3>
+        <hr>
+        <h3>
+          Temperature today <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+          <br>
+          <span id="temperature" class="info-val">Unknown</span>
+        </h3>
+        <a id="fcswap" class="btn btn-info">Show in &#8457;</a>
+        <hr>
+        <h3>
+          Current status <i class="fa fa-bar-chart" aria-hidden="true"></i>
+          <br>
+          <span id="status" class="info-val">Unknown</span> <span id="logo"></span>
+        </h3>
+        <!-- Some condition GIF/Animation here -->
+      </div>
+
+
+      <footer class="footer">
+        <p>&copy; 2k17 Maksim</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+    <script src="js/master.js" charset="utf-8"></script>
+  </body>
+</html>
